@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart with Promo Code</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Shopping Cart</h1>
+        
+        <div class="products-section">
+            <h2>Products</h2>
+            <div class="products-container" id="productsContainer">
+                <!-- Products will be dynamically added here -->
+            </div>
+        </div>
+        
+        <div class="cart-section">
+            <h2>Your Cart</h2>
+            <div class="cart-items" id="cartItems">
+                <!-- Cart items will be dynamically added here -->
+                <p id="emptyCartMessage">Your cart is empty</p>
+            </div>
+            
+            <div class="checkout-section" id="checkoutSection">
+                <h3>Checkout</h3>
+                
+                <div class="cart-summary">
+                    <div class="summary-row">
+                        <span>Subtotal:</span>
+                        <span id="subtotal">$0.00</span>
+                    </div>
+                    
+                    <!-- Promo Code Section -->
+                    <div class="promo-code-section">
+                        <div class="promo-input">
+                            <input type="text" id="promoCodeInput" placeholder="Enter promo code">
+                            <button id="applyPromoButton">Apply</button>
+                        </div>
+                        <div id="promoMessage" class="promo-message"></div>
+                        
+                        <div id="discountRow" class="summary-row discount-row hidden">
+                            <span>Discount:</span>
+                            <span id="discountAmount">-$0.00</span>
+                        </div>
+                    </div>
+                    
+                    <div class="summary-row total-row">
+                        <span>Total:</span>
+                        <span id="totalPrice">$0.00</span>
+                    </div>
+                </div>
+                
+                <button id="checkoutButton" class="checkout-button" disabled>Proceed to Checkout</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

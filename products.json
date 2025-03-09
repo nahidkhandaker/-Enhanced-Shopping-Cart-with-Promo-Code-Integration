@@ -1,0 +1,28 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Wireless Headphones",
+        "price": 89.99,
+        "image": "https://sonysmart.com.bd/public/uploads/all/wmAR0iWAr5pRubmvbCtS0bXtrzqhpTCD2nUxSaDN.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Smartphone",
+        "price": 699.99,
+        "image": "https://www.honor.com/content/dam/honor/sa-en/blog/2024/5-things-a-smartphone-can-do/imgs-01.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Laptop",
+        "price": 1299.99,
+        "image": "https://cdn.thewirecutter.com/wp-content/media/2024/11/BEST-LAPTOPS-PHOTO-VIDEO-EDITING-2048px-6.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Smartwatch",
+        "price": 199.99,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJfmCYnhPIdlDY8bxyb2v7nffJZVNpG5lPcw&s"
+      }
+    ]
+  }
