@@ -1,4 +1,4 @@
-# Shopping Cart with Promo Code
+#  Enhanced Shopping Cart with Promo Code Integration
 
 ## Description
 A web-based shopping cart application that allows users to view products, add them to a cart, apply promo codes, and proceed to checkout.
